@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+  background: linear-gradient(
+        135deg,
+        #ffe4e6,
+        #fecdd3,
+        #fbcfe8
+    );
+    
+   
+    
+}
+
+nav{
+   background: linear-gradient(
+        135deg,
+        #ffe4e6,
+        #fecdd3,
+        #fbcfe8
+    );
+    
+    height: 100px;
+    display: flex;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  
+   
+
+}
+
+ul {
+    display: flex;
+     flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 0px 40px;
+
+
+}
+
+nav a{
+    color: #7c2d54;
+
+text-shadow:
+0 0 10px rgba(124,45,84,0.25),
+0 0 20px rgba(124,45,84,0.15);
+    text-decoration: none;
+    
+}
+
+.links{
+    list-style: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 40px;
+    
+    
+    
+
+}
+
+
+    
+.logo:hover{
+    cursor: pointer;
+}
+
+#bigh1{
+    text-align: center;
+    padding-top: 30px;
+    
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+
+     font-size: 180px;
+     
+     letter-spacing: 25px;
+     color: #7c2d54;
+
+text-shadow:
+0 0 10px rgba(124,45,84,0.25),
+0 0 20px rgba(124,45,84,0.15);
+}
+
+hr {
+    border: 0.3px solid white;
+    margin: 10px 40px;
+}
+
+#heading1{
+    text-align: center;
+    color: #7c2d54;
+
+text-shadow:
+0 0 10px rgba(124,45,84,0.25),
+0 0 20px rgba(124,45,84,0.15);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    padding-top: 25px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    
+
+
+}
+
+.container {
+    height: auto;
+    background-color: transparent;
+
+    border-radius: 24px;
+
+    width: 93%;        /* fixed px ki jagah % use karo */
+    margin: 25px auto; /* auto = left aur right dono equal ho jayenge */
+    
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container div {
+    border: 1px solid white;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#div1 {
+    background-image: url(pie.jpg);
+    background-size: cover;
+}
+
+#div2{
+    background-image: url(choco.webp);
+    background-size: cover;
+}
+
+#div3 {
+    background-image: url(CAPPUCINO.jpg);
+    background-size: cover;
+}
+
+#div4 {
+    background-image: url(SWEET.jpg);
+    background-size: cover;
+}
+
+#div5 {
+    background-image: url(LEMON.jpg);
+    background-size: cover;
+}
+
+#div6 {
+    background-image: url(PINKISH.jpg);
+    background-size: cover;
+}
+
+#div7 {
+    background-image: url(images.jpg);
+    background-size: cover;
+}
+
+#div8 {
+    background-image: url(DESERTS.jpg);
+    background-size: cover;
+}
+
+#div9 {
+    background-image: url(PINK.jpg);
+    background-size: cover;
+}
+
+#div10 {
+    background-image: url(CAPPUCINO.jpg);
+    background-size: cover;
+}
+
+#div11 {
+    background-image: url(strawberry.jpg);
+    background-size: cover;
+}
+
+#div12 {
+    background-image: url(plate.jpg);
+    background-size: cover;
+}
+
+.container div {
+    transition: transform 0.3s ease;
+}
+
+.container div:hover {
+    transform: scale(1.02);
+}
+
+
+#heading2 {
+    text-align: center;
+    color: #7c2d54;
+    text-shadow:
+    0 0 10px rgba(124,45,84,0.25),
+    0 0 20px rgba(124,45,84,0.15);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+    font-size: 40px;
+    letter-spacing: 10px;
+    padding-top: 40px;
+    
+}
+
+#bigh2{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 180px;
+    color: #7c2d54;
+   
+}
+
+#bigh2 a {
+    color: #7c2d54;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#bigh3{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+     font-size: 180px;
+     color: #7c2d54;
+    
+}
+
+#bigh3 a {
+    color: #7c2d54;
+    list-style: none;
+    text-decoration: none;
+}
+
+#bigh4{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+     font-size: 180px;
+     color: #7c2d54;
+}
+
+#bigh4 a {
+    color: #7c2d54;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#bigh5{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+     font-size: 180px;
+     color: #7c2d54;
+}
+
+
+#bigh5 a {
+    color: #7c2d54;
+    list-style: none;
+    text-decoration: none;
+}
+
+#bigh2, #bigh3, #bigh4, #bigh5 {
+    margin: 0;
+    padding: 0;
+    line-height: 0.85;
+}
+
+#bigh2 a, #bigh3 a, #bigh4 a, #bigh5 a {
+    transition: opacity 0.3s ease;
+}
+
+#bigh2 a:hover, #bigh3 a:hover, #bigh4 a:hover, #bigh5 a:hover {
+    opacity: 0.4;
+}
+
+#bigh2 {
+    padding-top: 80px; /* heading2 ke baad space */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#heading3{
+    color: #7c2d54;
+    text-shadow:
+    0 0 10px rgba(124,45,84,0.25),
+    0 0 20px rgba(124,45,84,0.15);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-size: 40px;
+    letter-spacing: 10px;
+
+}
+
+#heading4{
+    color: #7c2d54;
+    text-shadow:
+    0 0 10px rgba(124,45,84,0.25),
+    0 0 20px rgba(124,45,84,0.15);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    font-size: 40px;
+    letter-spacing: 10px;
+
+}
+
